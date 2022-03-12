@@ -19,10 +19,12 @@ body {
 .menu__header__nav__items li {
     float: left;
     cursor: pointer;
+    padding: 0.4vw;
 }
 .menu__header__nav__items li:hover {
     transition: ease-in-out;
     background: lightblue;
     color: white;
     font-weight: bold;
+
 }
