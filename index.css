@@ -2,6 +2,8 @@ html,
 * {
   font-family: cursive;
   font-size: calc(10px + 0.5vw);
+  padding: 0;
+  margin: 0;
 }
 
 body {
@@ -31,6 +33,14 @@ body {
   font-weight: bold;
 }
 
+.personalPortfolio {
+  clear: both;
+}
 .personalPortfolio__info {
   display: flex;
+  width: 50%;
+}
+.personalPortfolio__info__title {
+  font-family: sans-serif;
+  text-align: center;
 }
