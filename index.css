@@ -1,29 +1,36 @@
-html, * {
-    font-family: cursive;
-    font-size: calc(10px + 0.5vw);
+html,
+* {
+  font-family: cursive;
+  font-size: calc(10px + 0.5vw);
 }
 
 body {
-    position: absolute;
-    margin: 0px;
-    height: 100%;
-    width: 100%;
-    background-color: #ebeef3;
+  position: absolute;
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+  background-color: #ebeef3;
 }
 
 .menu__header__nav__items {
-    padding: 0;
-    list-style-type: none;
-    margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin: 0;
 }
 .menu__header__nav__items li {
-    float: left;
-    cursor: pointer;
-    padding: 0.4vw;
+  float: left;
+  cursor: pointer;
+  padding: 0.4vw;
+  color: #5bc7e6;
+  border-radius: 50%;
 }
 .menu__header__nav__items li:hover {
-    transition: ease-in-out;
-    background: lightblue;
-    color: white;
-    font-weight: bold;
+  transition: ease-in-out;
+  background: lightblue;
+  color: white;
+  font-weight: bold;
+}
+
+.personalPortfolio__info {
+  display: flex;
 }
