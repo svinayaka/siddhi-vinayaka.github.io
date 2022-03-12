@@ -5,7 +5,24 @@ html, * {
 
 body {
     position: absolute;
+    margin: 0px;
     height: 100%;
     width: 100%;
     background-color: #ebeef3;
+}
+
+.menu__header__nav__items {
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+}
+.menu__header__nav__items li {
+    float: left;
+    cursor: pointer;
+}
+.menu__header__nav__items li:hover {
+    transition: ease-in-out;
+    background: lightblue;
+    color: white;
+    font-weight: bold;
 }
