@@ -1,0 +1,11 @@
+html, * {
+    font-family: cursive;
+    font-size: calc(10px + 0.5vw);
+}
+
+body {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #ebeef3;
+}
